@@ -1,0 +1,114 @@
+{
+  "input": {
+    "keywords": "stainless steel water bottle"
+  },
+  "output": {
+    "count": 4,
+    "result": [
+      [
+        [
+          "description",
+          "Replacement lid compatible with insulated stainless steel water bottles"
+        ],
+        [
+          "rating",
+          4.3
+        ],
+        [
+          "result",
+          "rejected"
+        ],
+        [
+          "reason",
+          "Price 6.99 is above allowed range"
+        ],
+        [
+          "id",
+          "20313f88-13fa-4cd4-9323-8f863cdb2e01"
+        ],
+        [
+          "review",
+          1543
+        ]
+      ],
+      [
+        [
+          "rating",
+          3.4
+        ],
+        [
+          "id",
+          "50ac9cd3-4883-4ff4-812a-330f0201acc6"
+        ],
+        [
+          "reason",
+          "Rating 3.4 is below minimum threshold 3.5"
+        ],
+        [
+          "result",
+          "rejected"
+        ],
+        [
+          "description",
+          "Budget stainless steel water bottle 32oz, single wall, not insulated"
+        ],
+        [
+          "review",
+          97
+        ]
+      ],
+      [
+        [
+          "description",
+          "Minimalist stainless steel water bottle 500ml"
+        ],
+        [
+          "rating",
+          3.8
+        ],
+        [
+          "id",
+          "91936841-04fe-4dae-9020-fcfb26477109"
+        ],
+        [
+          "result",
+          "passed"
+        ],
+        [
+          "review",
+          367
+        ],
+        [
+          "reason",
+          "All conditions are met successfully"
+        ]
+      ],
+      [
+        [
+          "rating",
+          3.9
+        ],
+        [
+          "result",
+          "passed"
+        ],
+        [
+          "id",
+          "51a2246a-ec75-41b8-a0b4-9cd47b947ead"
+        ],
+        [
+          "description",
+          "Stainless steel water bottle with classic screw cap"
+        ],
+        [
+          "review",
+          621
+        ],
+        [
+          "reason",
+          "All conditions are met successfully"
+        ]
+      ]
+    ]
+  }
+}

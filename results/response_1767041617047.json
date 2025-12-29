@@ -1,0 +1,881 @@
+{
+  "input": {
+    "keywords": {
+      "content": "stainless steel water bottle, stainless steel, water bottle",
+      "additional_kwargs": {
+        "reasoning_content": "We need to output keywords based on description: \"stainless steel water bottle\". No capacity, no insulation, no special features. So just \"stainless steel water bottle\". Possibly also separate \"stainless steel\", \"water bottle\". But guidelines: focus on product-defining attributes, include material and type. So keywords: stainless steel water bottle, stainless steel, water bottle. Comma-separated list. No extra text.\n\nThus output: stainless steel water bottle, stainless steel, water bottle."
+      },
+      "response_metadata": {
+        "token_usage": {
+          "completion_tokens": 120,
+          "prompt_tokens": 260,
+          "total_tokens": 380,
+          "completion_time": 0.248811527,
+          "completion_tokens_details": {
+            "reasoning_tokens": 100
+          },
+          "prompt_time": 0.010013972,
+          "prompt_tokens_details": null,
+          "queue_time": 0.055519608,
+          "total_time": 0.258825499
+        },
+        "model_name": "openai/gpt-oss-120b",
+        "system_fingerprint": "fp_a09bde29de",
+        "service_tier": "on_demand",
+        "finish_reason": "stop",
+        "logprobs": null,
+        "model_provider": "groq"
+      },
+      "type": "ai",
+      "name": null,
+      "id": "lc_run--019b6be2-2b81-72b0-a9d6-2a65af7fe41c-0",
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": {
+        "input_tokens": 260,
+        "output_tokens": 120,
+        "total_tokens": 380,
+        "output_token_details": {
+          "reasoning": 100
+        }
+      }
+    }
+  },
+  "output": {
+    "count": 32,
+    "result": [
+      [
+        [
+          "rating",
+          4.4
+        ],
+        [
+          "reason",
+          "Price 29.99 is above allowed range"
+        ],
+        [
+          "description",
+          "Stainless steel insulated water bottle 32oz with vacuum seal, keeps drinks cold for 24 hours"
+        ],
+        [
+          "result",
+          "rejected"
+        ],
+        [
+          "review",
+          1247
+        ],
+        [
+          "id",
+          "0ad5882b-81e4-4671-aa4c-49e9f05bc8fd"
+        ]
+      ],
+      [
+        [
+          "rating",
+          3.6
+        ],
+        [
+          "reason",
+          "All conditions are met successfully"
+        ],
+        [
+          "result",
+          "passed"
+        ],
+        [
+          "review",
+          213
+        ],
+        [
+          "id",
+          "bd3d9be6-8c39-4021-bc4d-b39cf6f259bf"
+        ],
+        [
+          "description",
+          "Plastic reusable water bottle 1 liter, lightweight and BPA free"
+        ]
+      ],
+      [
+        [
+          "rating",
+          4.6
+        ],
+        [
+          "reason",
+          "Price 34.99 is above allowed range"
+        ],
+        [
+          "review",
+          5632
+        ],
+        [
+          "result",
+          "rejected"
+        ],
+        [
+          "id",
+          "98ee34c6-0aa2-4a37-9f9f-09de92dc1f8e"
+        ],
+        [
+          "description",
+          "Premium insulated steel water bottle 26oz with wide mouth and leak proof lid"
+        ]
+      ],
+      [
+        [
+          "id",
+          "ab0a097b-6941-41df-9c0b-6688bb040d01"
+        ],
+        [
+          "description",
+          "Water bottle cleaning brush set with long handle and sponge tip"
+        ],
+        [
+          "rating",
+          4.5
+        ],
+        [
+          "review",
+          3421
+        ],
+        [
+          "result",
+          "rejected"
+        ],
+        [
+          "reason",
+          "Price 7.49 is outside allowed range"
+        ]
+      ],
+      [
+        [
+          "reason",
+          "All conditions are met successfully"
+        ],
+        [
+          "review",
+          879
+        ],
+        [
+          "result",
+          "passed"
+        ],
+        [
+          "id",
+          "527690dc-7830-4332-bead-703ddbf8bcff"
+        ],
+        [
+          "rating",
+          4.1
+        ],
+        [
+          "description",
+          "Glass water bottle with silicone sleeve 20oz, eco friendly design"
+        ]
+      ],
+      [
+        [
+          "review",
+          8124
+        ],
+        [
+          "rating",
+          4.7
+        ],
+        [
+          "result",
+          "rejected"
+        ],
+        [
+          "reason",
+          "Price 39.99 is outside allowed range"
+        ],
+        [
+          "id",
+          "33a58f32-eeb3-48eb-8331-52745217e8ba"
+        ],
+        [
+          "description",
+          "Insulated stainless steel sports bottle 40oz for hiking and outdoor activities"
+        ]
+      ],
+      [
+        [
+          "rating",
+          4.3
+        ],
+        [
+          "id",
+          "20313f88-13fa-4cd4-9323-8f863cdb2e01"
+        ],
+        [
+          "description",
+          "Replacement lid compatible with insulated stainless steel water bottles"
+        ],
+        [
+          "reason",
+          "Price 6.99 is below allowed range"
+        ],
+        [
+          "result",
+          "rejected"
+        ],
+        [
+          "review",
+          1543
+        ]
+      ],
+      [
+        [
+          "rating",
+          3.9
+        ],
+        [
+          "review",
+          468
+        ],
+        [
+          "reason",
+          "All conditions are met successfully"
+        ],
+        [
+          "result",
+          "passed"
+        ],
+        [
+          "description",
+          "Collapsible silicone water bottle 500ml, travel friendly and foldable"
+        ],
+        [
+          "id",
+          "914b583f-865b-448e-9ffd-8ced628d6fa5"
+        ]
+      ],
+      [
+        [
+          "rating",
+          3.4
+        ],
+        [
+          "id",
+          "50ac9cd3-4883-4ff4-812a-330f0201acc6"
+        ],
+        [
+          "review",
+          97
+        ],
+        [
+          "reason",
+          "Rating 3.4 is below minimum threshold 3.5"
+        ],
+        [
+          "result",
+          "rejected"
+        ],
+        [
+          "description",
+          "Budget stainless steel water bottle 32oz, single wall, not insulated"
+        ]
+      ],
+      [
+        [
+          "review",
+          2319
+        ],
+        [
+          "rating",
+          4.8
+        ],
+        [
+          "description",
+          "High-end insulated water bottle 32oz with temperature display on lid"
+        ],
+        [
+          "result",
+          "rejected"
+        ],
+        [
+          "id",
+          "8fa7aa81-7283-4f92-8f3f-c30e630ad2d2"
+        ],
+        [
+          "reason",
+          "Price 49.99 is outside allowed range"
+        ]
+      ],
+      [
+        [
+          "rating",
+          4.2
+        ],
+        [
+          "review",
+          1043
+        ],
+        [
+          "reason",
+          "Price 24.99 is above allowed range"
+        ],
+        [
+          "id",
+          "f65a287e-720b-4a39-875a-2536d06a71ee"
+        ],
+        [
+          "result",
+          "rejected"
+        ],
+        [
+          "description",
+          "Vacuum insulated travel water bottle 20oz with flip top lid"
+        ]
+      ],
+      [
+        [
+          "reason",
+          "All conditions are met successfully"
+        ],
+        [
+          "rating",
+          4
+        ],
+        [
+          "result",
+          "passed"
+        ],
+        [
+          "id",
+          "ca12285d-059c-47e6-ad42-1124c0c6446a"
+        ],
+        [
+          "description",
+          "Kids water bottle with straw lid and cartoon design"
+        ],
+        [
+          "review",
+          658
+        ]
+      ],
+      [
+        [
+          "reason",
+          "Price 44.99 is above allowed range"
+        ],
+        [
+          "review",
+          2917
+        ],
+        [
+          "rating",
+          4.6
+        ],
+        [
+          "result",
+          "rejected"
+        ],
+        [
+          "description",
+          "Copper coated insulated water bottle for long temperature retention"
+        ],
+        [
+          "id",
+          "45562ecc-d942-4ba9-a86c-7816df9558ed"
+        ]
+      ],
+      [
+        [
+          "reason",
+          "All conditions are met successfully"
+        ],
+        [
+          "id",
+          "d44abef3-782a-4b99-822f-d0969f35e2a6"
+        ],
+        [
+          "result",
+          "passed"
+        ],
+        [
+          "review",
+          412
+        ],
+        [
+          "rating",
+          3.7
+        ],
+        [
+          "description",
+          "Lightweight aluminum water bottle for gym and fitness"
+        ]
+      ],
+      [
+        [
+          "reason",
+          "All conditions are met successfully"
+        ],
+        [
+          "rating",
+          4.4
+        ],
+        [
+          "result",
+          "passed"
+        ],
+        [
+          "id",
+          "303f15d2-01be-4c1f-934c-7a15928cb402"
+        ],
+        [
+          "review",
+          1854
+        ],
+        [
+          "description",
+          "Water bottle carrier bag with adjustable shoulder strap"
+        ]
+      ],
+      [
+        [
+          "rating",
+          4.3
+        ],
+        [
+          "description",
+          "Insulated stainless steel flask 500ml for hot and cold beverages"
+        ],
+        [
+          "review",
+          1987
+        ],
+        [
+          "result",
+          "rejected"
+        ],
+        [
+          "id",
+          "cbae7aa0-737e-4db0-ad7e-7d2c12d1514a"
+        ],
+        [
+          "reason",
+          "Price 22.99 is above allowed range"
+        ]
+      ],
+      [
+        [
+          "reason",
+          "All conditions are met successfully"
+        ],
+        [
+          "description",
+          "Slim metal water bottle 18oz suitable for car cup holders"
+        ],
+        [
+          "result",
+          "passed"
+        ],
+        [
+          "id",
+          "361f71dd-48b8-48f2-b089-64619e470ad5"
+        ],
+        [
+          "rating",
+          4.1
+        ],
+        [
+          "review",
+          732
+        ]
+      ],
+      [
+        [
+          "description",
+          "Reusable plastic water bottle with measurement markings"
+        ],
+        [
+          "reason",
+          "All conditions are met successfully"
+        ],
+        [
+          "id",
+          "2efb7972-a362-4248-9927-645e7eedbe83"
+        ],
+        [
+          "result",
+          "passed"
+        ],
+        [
+          "rating",
+          3.5
+        ],
+        [
+          "review",
+          289
+        ]
+      ],
+      [
+        [
+          "rating",
+          4.4
+        ],
+        [
+          "id",
+          "4ffd9fd2-0540-4ec6-a0d5-4b13490c4a64"
+        ],
+        [
+          "result",
+          "rejected"
+        ],
+        [
+          "review",
+          2465
+        ],
+        [
+          "reason",
+          "Price 27.99 is outside allowed range"
+        ],
+        [
+          "description",
+          "Insulated water bottle with sports cap and carry loop"
+        ]
+      ],
+      [
+        [
+          "reason",
+          "Price 42.99 is outside allowed range"
+        ],
+        [
+          "id",
+          "530982ba-4eaa-4ddf-9f6f-ec901090863e"
+        ],
+        [
+          "rating",
+          4.6
+        ],
+        [
+          "description",
+          "Eco friendly bamboo insulated water bottle with steel interior"
+        ],
+        [
+          "result",
+          "rejected"
+        ],
+        [
+          "review",
+          1456
+        ]
+      ],
+      [
+        [
+          "rating",
+          4.2
+        ],
+        [
+          "reason",
+          "Price 31.99 is above allowed range"
+        ],
+        [
+          "id",
+          "7599e177-5fa7-4d67-a206-26dff74b2a81"
+        ],
+        [
+          "result",
+          "rejected"
+        ],
+        [
+          "description",
+          "Metal water bottle gift set with extra lids and brushes"
+        ],
+        [
+          "review",
+          1134
+        ]
+      ],
+      [
+        [
+          "rating",
+          4.3
+        ],
+        [
+          "id",
+          "ca787298-eb7e-4d28-97e1-a4a3f85eab8f"
+        ],
+        [
+          "reason",
+          "Price 28.49 is above allowed range"
+        ],
+        [
+          "result",
+          "rejected"
+        ],
+        [
+          "review",
+          1623
+        ],
+        [
+          "description",
+          "Thermal water bottle 750ml with scratch resistant coating"
+        ]
+      ],
+      [
+        [
+          "review",
+          188
+        ],
+        [
+          "description",
+          "Plastic squeeze water bottle for cycling and sports"
+        ],
+        [
+          "reason",
+          "Rating 3.3 is below minimum threshold 3.5"
+        ],
+        [
+          "rating",
+          3.3
+        ],
+        [
+          "result",
+          "rejected"
+        ],
+        [
+          "id",
+          "edfc2146-d776-4400-a43b-a8625e2419f0"
+        ]
+      ],
+      [
+        [
+          "rating",
+          4.5
+        ],
+        [
+          "id",
+          "376fd4bf-b885-4640-bfce-95b722679d4a"
+        ],
+        [
+          "reason",
+          "Price 35.99 is above allowed range"
+        ],
+        [
+          "description",
+          "Insulated water bottle with cup lid for office use"
+        ],
+        [
+          "result",
+          "rejected"
+        ],
+        [
+          "review",
+          2741
+        ]
+      ],
+      [
+        [
+          "reason",
+          "All conditions are met successfully"
+        ],
+        [
+          "rating",
+          4
+        ],
+        [
+          "id",
+          "6d9c659a-ce2f-4124-9593-956a7a6a189e"
+        ],
+        [
+          "result",
+          "passed"
+        ],
+        [
+          "review",
+          901
+        ],
+        [
+          "description",
+          "Steel water bottle with powder coated matte finish"
+        ]
+      ],
+      [
+        [
+          "reason",
+          "All conditions are met successfully"
+        ],
+        [
+          "result",
+          "passed"
+        ],
+        [
+          "review",
+          367
+        ],
+        [
+          "description",
+          "Minimalist stainless steel water bottle 500ml"
+        ],
+        [
+          "rating",
+          3.8
+        ],
+        [
+          "id",
+          "91936841-04fe-4dae-9020-fcfb26477109"
+        ]
+      ],
+      [
+        [
+          "id",
+          "27cb1569-d374-46ea-af86-243db45c9dac"
+        ],
+        [
+          "reason",
+          "Price 64.99 is above allowed range"
+        ],
+        [
+          "rating",
+          4.1
+        ],
+        [
+          "description",
+          "Smart water bottle with hydration reminder LED"
+        ],
+        [
+          "result",
+          "rejected"
+        ],
+        [
+          "review",
+          948
+        ]
+      ],
+      [
+        [
+          "rating",
+          3.9
+        ],
+        [
+          "reason",
+          "All conditions are met successfully"
+        ],
+        [
+          "description",
+          "Stainless steel water bottle with classic screw cap"
+        ],
+        [
+          "result",
+          "passed"
+        ],
+        [
+          "review",
+          621
+        ],
+        [
+          "id",
+          "51a2246a-ec75-41b8-a0b4-9cd47b947ead"
+        ]
+      ],
+      [
+        [
+          "reason",
+          "All conditions are met successfully"
+        ],
+        [
+          "description",
+          "Sports water bottle with locking flip lid and straw"
+        ],
+        [
+          "review",
+          2139
+        ],
+        [
+          "rating",
+          4.3
+        ],
+        [
+          "result",
+          "passed"
+        ],
+        [
+          "id",
+          "3794769c-350d-4b73-ac23-5b1a5088c2a9"
+        ]
+      ],
+      [
+        [
+          "rating",
+          4.7
+        ],
+        [
+          "review",
+          734
+        ],
+        [
+          "reason",
+          "Price 89.99 is above allowed range"
+        ],
+        [
+          "id",
+          "e4d9194e-6cff-4900-bb78-2404c160ca08"
+        ],
+        [
+          "result",
+          "rejected"
+        ],
+        [
+          "description",
+          "Ultra lightweight titanium water bottle for backpacking"
+        ]
+      ],
+      [
+        [
+          "description",
+          "Economy metal water bottle without insulation"
+        ],
+        [
+          "id",
+          "ae6e8413-5cbc-4076-8427-0aff297dfd98"
+        ],
+        [
+          "rating",
+          3.2
+        ],
+        [
+          "reason",
+          "Rating 3.2 is below minimum threshold 3.5"
+        ],
+        [
+          "result",
+          "rejected"
+        ],
+        [
+          "review",
+          154
+        ]
+      ],
+      [
+        [
+          "rating",
+          4.8
+        ],
+        [
+          "review",
+          1289
+        ],
+        [
+          "result",
+          "rejected"
+        ],
+        [
+          "description",
+          "Luxury insulated water bottle with leather sleeve"
+        ],
+        [
+          "reason",
+          "Price 79.99 is above allowed range"
+        ],
+        [
+          "id",
+          "c9e67fdd-4148-491b-8772-92cf81b76bf5"
+        ]
+      ]
+    ]
+  }
+}
